@@ -28,8 +28,6 @@
         </div>
 
     <div id="view"></div>
-	dodana linija lokalno
-    dodana linija online
     <script>
         $(document).ready(function() {
            setInterval(updateView, 10000);
