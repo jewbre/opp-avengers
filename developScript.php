@@ -28,6 +28,7 @@
         </div>
 
     <div id="view"></div>
+	dodana linija lokalno 
 
     <script>
         $(document).ready(function() {
