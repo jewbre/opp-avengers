@@ -28,6 +28,7 @@
         </div>
 
     <div id="view"></div>
+        lokalna linija
     <script>
         $(document).ready(function() {
            setInterval(updateView, 10000);
