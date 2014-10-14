@@ -94,9 +94,3 @@
     });
 
 
-    restaurants.controller("headerController",function($scope){
-        $scope.images = [ "resources/images/res1.jpg",
-            "resources/images/res2.jpg",
-            "resources/images/res3.jpg",
-            "resources/images/res4.jpg"];
-    })

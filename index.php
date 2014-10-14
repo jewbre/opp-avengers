@@ -6,6 +6,7 @@
     <script type="text/javascript" src="js/angular.min.js"></script>
     <script type="text/javascript" src="js/jQuery.js"></script>
     <script type="text/javascript" src="js/angulasApp.js"></script>
+    <script type="text/javascript" src="js/jQueryCode.js"></script>
 </head>
 <body ng-app="restaurants">
 

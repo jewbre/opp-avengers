@@ -9,9 +9,10 @@
 class Header {
     function displayHeader() {
         ?>
-        <div class="header"  ng-controller="headerController">
+        <div class="header"  >
             <div id="slider">
-                <img  ng-repeat="img in images" class="sliderImage" ng-src="{{img}}" />
+                <img src="resources/images/res1.jpg" class="sliderImage" id="sliderImage1">
+                <img src="resources/images/res2.jpg" class="sliderImage" id="sliderImage2">
             </div>
 
             <div class="menu">

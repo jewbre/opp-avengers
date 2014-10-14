@@ -102,7 +102,21 @@ body {
 #slider {
     height:250px;
     overflow: hidden;
+    position:relative;
 }
+
+.sliderImage {
+    position:absolute;
+    width:900px;
+    display:inline-block;
+    top:0px;
+    left:0px;
+}
+
+#sliderImage2 {
+    display:none;
+}
+
 
 .search {
     width:120px;
