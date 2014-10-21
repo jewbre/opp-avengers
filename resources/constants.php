@@ -13,9 +13,9 @@
 
 // DATABASE CONNECTION VARIABLES
 define("HOST","127.0.0.1");
-define("DBNAME","restorani");
-define("DB_USERNAME","username");
-define("DB_PASSWORD","password");
+define("DBNAME","restaurants");
+define("DB_USERNAME","nobody");
+define("DB_PASSWORD","nobody");
 
 
 // PAGE NOMENCLATURE VARIABLES
