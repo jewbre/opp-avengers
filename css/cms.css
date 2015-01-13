@@ -1,0 +1,160 @@
+body {
+    margin:0 auto;
+    padding:0px;
+    overflow: hidden;
+    font-family: "Agency FB";
+    background-color: #0e0e0e;
+}
+.menu, .mainContent {
+    display:inline-block;
+    vertical-align: top;
+    margin:0 auto;
+}
+
+.mainHolder {
+    display:inline-block;
+    width:100%;
+    height:550px;
+    background: -moz-linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6+ */
+    background: -ms-linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6+ */
+    background: -o-linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6+ */
+    background: linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6+ */
+
+}
+
+
+.menu {
+    width:15%;
+    min-width: 150px;
+    height:50px;
+    padding:0px;
+}
+
+.menuItem {
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    padding:10px 15px;
+    background-color: #b5b2af;
+    font-size: 16px;
+    transition:all 0.15s ease-in-out;
+    cursor: pointer;
+
+}
+
+.menuItem:hover {
+    padding-left:25px;
+    background-color: #dbd8d5;
+}
+
+.mainContent{
+    width:84%;
+    min-width: 600px;
+    height:550px;
+    overflow: hidden;
+    position:relative;
+    border-left:2px solid #000000;
+
+}
+
+.functionalityWindow {
+    position:absolute;
+    width:100%;
+    height:100%;
+    display:inline-block;
+    transition:all 0.5s ease-in-out;
+    top:550px;
+    opacity:0;
+    padding:20px;
+    overflow-y: scroll;
+}
+
+.topLine {
+    height:70px;
+    width:100%;
+    padding:15px;
+    border-bottom: 3px solid black;
+
+    font-size: 48px;
+    font-family: "Agency FB";
+    font-weight: bold;
+    color:#ffffff;
+    text-shadow:2px 2px 4px rgba(0,0,0,0.7);
+
+
+
+    background: -moz-linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6+ */
+    background: -ms-linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6+ */
+    background: -o-linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6+ */
+    background: linear-gradient(top, #d8e0de 0%, #aebfbc 22%, #99afab 33%, #8ea6a2 50%, #829d98 67%, #4e5c5a 82%, #0e0e0e 100%); /* FF3.6+ */
+
+}
+
+.separateLine {
+    height:30px;
+    width:100%;
+    background: -moz-linear-gradient(top, #959595 0%, #0d0d0d 1%, #474747 51%, #4e4e4e 60%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #959595 0%, #0d0d0d 1%, #474747 51%, #4e4e4e 60%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
+    background: -ms-linear-gradient(top, #959595 0%, #0d0d0d 1%, #474747 51%, #4e4e4e 60%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
+    background: -o-linear-gradient(top, #959595 0%, #0d0d0d 1%, #474747 51%, #4e4e4e 60%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
+    background: linear-gradient(top, #959595 0%, #0d0d0d 1%, #474747 51%, #4e4e4e 60%, #383838 87%, #1b1b1b 100%); /* FF3.6+ */
+    border-bottom: 3px solid #000000;
+}
+
+
+
+
+.saveBtn, .cancelBtn, .editBtn {
+    color:#ffffff;
+    padding:5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.saveBtn {
+    background-color: #2517DA;
+    border:2px solid #2517DA;
+}
+.saveBtn:hover {
+    background-color: #6352ff;
+}
+
+.cancelBtn {
+    background-color: #E73827;
+    border: 2px solid #E73827;
+}
+.cancelBtn:hover{
+    background-color: #F16F5C;
+}
+
+.editBtn{
+    background-color: #e7790f;
+    border: 2px solid #e7790f;
+}
+.editBtn:hover{
+    background-color: #e79c4a;
+}
+
+
+.menu-item {
+    display:inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding:5px 10px;
+    transition:all 0.15s ease;
+    cursor:pointer;
+}
+
+.menu-item:hover {
+    color:#000000;
+    background-color: #ffffff;
+    padding:5px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+

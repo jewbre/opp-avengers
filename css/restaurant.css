@@ -1,0 +1,209 @@
+.restaurantImagePreview {
+    max-height: 180px;
+    max-width: 180px;
+    border: 3px solid rgba(146,146,146,0.6);
+    transition: all 0.15s ease;
+    display:inline-block;
+    vertical-align: top;
+    margin:10px;
+}
+
+.restaurantImagePreview:hover {
+    border: 3px solid rgba(146,146,146,1);
+}
+.restaurantImageHolder {
+    display:inline-block;
+    vertical-align: top;
+    width:210px;
+}
+
+.restaurantPreview {
+    width:880px;
+    padding:10px;
+    border:1px solid #d8ddda;
+    display:inline-block;
+    transition:all 0.15s ease;
+    background-color: rgba(255,255,255,0.5);
+    text-align: left;
+}
+
+.restaurantPreview:hover {
+    box-shadow: inset 0px 0px 10px rgba(109,128,50,1);
+    background-color: rgba(255,255,255,0.9);
+
+}
+
+.restaurantDetails {
+    display:inline-block;
+    width:430px;
+    height: 170px;
+    text-align: left;
+}
+
+.restaurantsList {
+    display:inline-block;
+    text-align:center;
+    width: 900px;
+    position:relative;
+}
+
+.mealMenuBtn {
+    outline:none;
+    display:inline-block;
+    vertical-align: bottom;
+    padding:10px 15px;
+    font-size: 18px;
+    color: #ffffff;
+    background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 60%,#72aa00 75%,#9ecb2d 100%);
+    background: -moz-linear-gradient(top, #bfd255 0%,#8eb92a 60%,#72aa00 75%,#9ecb2d 100%);
+    background: -ms-linear-gradient(top, #bfd255 0%,#8eb92a 60%,#72aa00 75%,#9ecb2d 100%);
+    background: -o-linear-gradient(top, #bfd255 0%,#8eb92a 60%,#72aa00 75%,#9ecb2d 100%);
+    background: linear-gradient(top, #bfd255 0%,#8eb92a 60%,#72aa00 75%,#9ecb2d 100%);
+    cursor: pointer;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #9ecb2d;
+    transition:all 0.15s ease-in-out;
+}
+
+.mealMenuBtn:hover {
+    background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 20%,#72aa00 50%,#9ecb2d 100%);
+}
+
+.mealMenuHolder, .gastroCodeHolder {
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color: rgba(0,0,0,0.7);
+    width:100%;
+    height:100%;
+    text-align: center;
+    margin:0 auto;
+    overflow-y: scroll;
+    display:none;
+}
+
+.gastroCode {
+    display:inline-block;
+    width:800px;
+    font-family: "Agency FB";
+    background-color: rgba(255,255,255,0.5);
+    padding:25px;
+    margin-top:50px;
+}
+
+.gastroCode .codeDisplay {
+    background:#a9a9a9;
+    width:750px;
+    height: 250px;
+    resize: none;
+}
+.gastroCode .jqueryDisplay {
+    background:#a9a9a9;
+    width:750px;
+    height: 70px;
+    resize: none;
+}
+
+.mealMenu {
+    font-family: "Agency FB";
+    background:url('../resources/images/paper1.png') no-repeat,
+                url('../resources/images/paper3.png') bottom left no-repeat,
+                url('../resources/images/paper2.png');
+    width:560px;
+    display:inline-block;
+    transition: all 0.3s ease-in-out;
+    padding:150px 120px;
+}
+
+.meal {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.mealName {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mealDescription, .mealPrice {
+    font-size: 18px;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.mealDescription {
+    width:480px;
+}
+
+
+.reserveBtn {
+    padding:10px 15px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #c05800;
+    border:3px solid #c05800;
+    transition:all 0.15s ease-in-out;
+    margin:5px 0px;
+    cursor: pointer;
+}
+
+.reserveBtn:hover {
+    background-color: #ff7300;
+}
+
+
+
+.restaurantDescription {
+    font-size: 12px;
+    color: #919191;
+    margin-bottom: 10px;
+}
+
+.commentOnRank {
+    margin:0 auto;
+    font-size: 12px;
+    color: #919191;
+}
+.rank {
+    display:inline-block;
+    vertical-align: middle;
+    height:25px;
+    width:25px;
+    padding:0px;
+    margin-right:-5px;
+    content: url('http://oi60.tinypic.com/2mxnis.jpg');
+}
+.rank:hover ~ .rank {
+    content: url('http://oi61.tinypic.com/35a6pgz.jpg');
+}
+
+.rankComment {
+    display:inline-block;
+    vertical-align: middle;
+    height:20px;
+    width:150px;
+    resize: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    border:2px inset #cccccc;
+}
+
+.gastroClick {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0px;
+    cursor: pointer;
+    opacity:0.5;
+    transition: all 0.2s ease-in-out;
+}
+.gastroClick:hover {
+    opacity: 1;
+}
+
+.rankHolder {
+    opacity:0.5;
+    transition: all 0.2s ease-in-out;
+}
+.rankHolder:hover{
+    opacity: 1;
+}
