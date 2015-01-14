@@ -145,7 +145,7 @@ CREATE TABLE IF NOT EXISTS `orders` (
   `restaurantId` int(11) NOT NULL,
   `supplierId` int(11) NOT NULL,
   `orderNo` int(11) NOT NULL,
-  `date` datetime NOT NULL,
+  `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `status` int(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=13 ;
 
